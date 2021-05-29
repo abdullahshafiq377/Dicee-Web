@@ -17,3 +17,5 @@ function myfunction()
         document.querySelector("h1").innerHTML = "<em>Draw</em>";
     }
 }
+
+document.querySelector("button").addEventListener("click", myfunction);
